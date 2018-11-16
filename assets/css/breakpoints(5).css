@@ -1,0 +1,89 @@
+/*======================================================
+=            Bootstrap 2.3.2 Media Queries            =
+=====================================================*/
+@media only screen and (max-width : 1200px){
+ 
+}
+ 
+@media only screen and (max-width : 979px){
+	.col-sm-3{
+        width:50%;
+    }
+    #prod-cat{
+        width:100%;
+    }
+    #prod-wrap{
+        width:100%;
+    }
+    .content-container{
+        padding:50px 0px;
+    }
+    #custSlider{
+        height: 40vh;
+    }
+    #sliderControls{
+        display: none;
+    }
+    #editSlideBtn{
+        top: calc(70% - 25px);
+    }
+    .slider-text{
+        width: 350px;
+        left: calc(50% - (350px / 2));
+    }
+}
+ 
+@media only screen and (max-width : 750px){
+    .mobileOn{
+        display: block;
+    }
+    .mobileOff{
+        display: none;
+    }
+    #custSlider{
+        height: 200px;
+    }
+    .slider-text{
+        display: none;
+    }
+    #main-content.left{
+        width:100%;
+        padding-top:74px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    blockquote{
+        font-size: 17px;
+    }
+    blockquote .stroke{
+        
+    }
+    embed{
+        height:150px !important;
+    }
+    #imgPopUp{
+        position: fixed;
+        width: 100%;
+        left: 0%;
+        top: auto;
+        bottom: 0px;
+        background: rgba(0,0,0,0.9);
+        padding: 50px 15px;
+        display: none;
+    }
+    .col-sm-3{
+        width:100%;
+    }
+    #editSlideBtn{
+        top: calc(40% - 25px);
+    }
+}
+ 
+@media only screen and (max-width : 480px){
+ 
+}
+ 
+@media only screen and (max-width : 320px){
+ 
+}
