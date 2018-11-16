@@ -1,0 +1,2 @@
+<h1>welcome indhold</h1>
+<blockquote><div class="stroke"></div>Welcome blockquote</blockquote>
